@@ -1,4 +1,4 @@
-## Unreleased patch
+## 0.23.4
 
 - Server rendering now fails with a 500 HTTP response instead of hanging indefinitely when an error occurs during the initial build, outside of a component's `build` method.
 - Worked around a Dart VM bug that caused server rendering to crash on `linux_x64` due to a `NoSuchMethodError` inside `TaskChain.then`.
